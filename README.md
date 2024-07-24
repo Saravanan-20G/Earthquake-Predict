@@ -44,3 +44,27 @@ income_bracket: Target variable representing income bracket (if applicable)
 
 age_group: Age group category
 
+## Project Structure
+
+project-directory/
+
+│
+├── data/
+
+│   └── your_dataset.csv           # The dataset file
+
+│
+├── notebooks/
+
+│   └── exploratory_analysis.ipynb # Jupyter notebook for exploratory data analysis
+
+│
+├── scripts/
+
+│   └── train_model.py             # Script to train the model
+
+│
+├── README.md                      # This README file
+
+│
+└── requirements.txt               # File with required packages
